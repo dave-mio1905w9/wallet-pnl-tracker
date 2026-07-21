@@ -4,12 +4,18 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wallet-pnl"
-version = "0.1.0"
+version = "0.2.0"
 description = "Track in-game trade logs and compute FIFO/avg cost basis PnL"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "click>=8.1.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
 ]
 
 [project.scripts]

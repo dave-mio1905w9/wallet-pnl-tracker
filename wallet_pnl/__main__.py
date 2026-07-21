@@ -2,4 +2,8 @@ import sys
 from wallet_pnl.cli import main
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except KeyboardInterrupt:
+        # print("interrupted", file=sys.stderr)
+        sys.exit(130)
