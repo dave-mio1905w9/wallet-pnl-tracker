@@ -36,4 +36,4 @@ wallet-pnl history "Tritanium"
 
 Data is stored in a local SQLite db at `~/.wallet_pnl/trades.db` by default (override with `--db <path>`).
 
-<!-- checked: 2026-09-16 -->
+<!-- checked: 2026-09-17 -->
